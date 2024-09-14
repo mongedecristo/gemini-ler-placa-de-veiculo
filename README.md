@@ -1,27 +1,47 @@
-# IaGeminiJason
+## Placa na Foto? Deixa o Gemini ler pra você! 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.4.
+**Este projeto transforma seu navegador em um leitor de placas de veículos inteligente!** Usando a magia do Google Generative AI e o modelo Gemini 1.5, ele analisa imagens e tenta identificar o texto da placa.
 
-## Development server
+### **Como usar:**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/mongedecristo/ia-gemini-jason.git](https://github.com/mongedecristo/ia-gemini-jason.git)
 
-## Code scaffolding
+2. **Vamos lá, para dentro!**<br>
+*Navegue até a pasta do projeto:*
+   ```bash
+   cd ia-gemini-ler-placa-de-veiculo
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3. **Instale as dependências:**<br>
+*São como temperos para a receita.*
+   ```bash
+   npm install
 
-## Build
+4. **Segredo final (shhh):**<br>
+*Crie um arquivo chamado .env na raiz do projeto e adicione a seguinte linha, substituindo YOUR_API_KEY pela sua chave de API do Google Generative AI (precisa criar uma conta no Google Cloud):*
+   ```bash
+   GOOGLE_AI_API_KEY=YOUR_API_KEY
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Beleza, agora é só rodar!
 
-## Running unit tests
+1. **Servidor ligado?**
+   <br>*Para iniciar o servidor de desenvolvimento, digite:*
+    ```bash
+    npm start
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. **Abra o navegador!**
+   <br>*Acesse*
+    ```bash
+    http://localhost:4200
+    ```
+    *para ver a magia acontecer.*
 
-## Running end-to-end tests
+3. **Escolha a imagem:**<br>
+*Clique em "Escolher arquivo" e selecione uma imagem contendo um veículo com a placa bem visível.*
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+4. **E pronto!**<br>
+*O Gemini vai analisar a imagem e, se tudo der certo, fará sua mágica e exibirá o texto da placa identificada.*
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### Projeto By Jason Chaves Schmidt © 2024
+### <a href="mailto:jason.c.schmidt@gmail.com">jason.c.schmidt@gmail.com</a>
