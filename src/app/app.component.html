@@ -1,20 +1,21 @@
-<!--
 <div class="container mt-3">
   <div class="row">
-    <div class="col-xs-12 col-md-4">
-      <img [src]="imagem" class="img-fluid" />
+    <div class="col-xs-12 col-md-4 altura p-1 mb-2 bg-success text-white">
+      <img [(src)]="imagem" id="foto" class="img-fluid" style="height: 290px;"/>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-md-4 altura p-3 mb-2 bg-info text-white">
+      {{ resposta }}
     </div>
   </div>
   <div>
     <div class="row">
-      <form name="formulario">
         <div class="form-group col-xs-12 col-md-4">
-
-          <input type="file" class='form-control' id="entradaDeImagem" name="entradaDeImagem" (change)="capturaImagem($event)" [(ngModel)]="imagem"/>
+          <input type="file" class='form-control'
+            id="entradaDeImagem" name="entradaDeImagem"
+            (change)="capturaImagem($event)" [(ngModel)]="imagem" />
         </div>
-      </form>
     </div>
   </div>
-
 </div>
- -->
