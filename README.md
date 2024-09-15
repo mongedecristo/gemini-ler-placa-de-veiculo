@@ -6,7 +6,7 @@
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/mongedecristo/ia-gemini-jason.git](https://github.com/mongedecristo/ia-gemini-jason.git)
+   git clone https://github.com/mongedecristo/ia-gemini-jason.git
 
 2. **Vamos lá, para dentro!**<br>
 *Navegue até a pasta do projeto:*
